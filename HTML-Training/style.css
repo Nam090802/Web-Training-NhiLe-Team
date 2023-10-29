@@ -26,6 +26,10 @@ html {
     border-radius: 50%;
 }
 
+.main .avatar img:hover {
+    cursor: pointer;
+}
+
 .main .info {
     line-height: 1.6;
 }
@@ -44,7 +48,20 @@ html {
 }
 
 .main .info ol {
+    margin-bottom: 10px;
     text-align: center;
+}
+
+.main .contact h2 {
+    text-align: center;
+}
+
+.contact .input-box input {
+    padding: 2px 5px;
+}
+
+.contact .btn input:hover {
+    cursor: pointer;
 }
 
 @media (width >= 768px) {
@@ -90,5 +107,14 @@ html {
     .main .info ol {
         margin-top: 20px;
         text-align: left;
+    }
+
+    .main .contact h2 {
+        font-size: 30px;
+        text-align: left;
+    }
+
+    .main .contact label {
+        font-size: 20px;
     }
 }
